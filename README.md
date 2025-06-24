@@ -1,2 +1,99 @@
-# d2c-insight-engine
- A smart analytics dashboard that helps turn Instagram creators into D2C brand opportunities. This tool scrapes any public profile, analyzes content, engagement, and audience sentiment, then predicts the best D2C category with tailored product ideas — all built for House of X and inspired by Raj Shamani’s creator-first vision.
+# 📊 House of X Influencer D2C Brand Recommendation Dashboard
+
+An end-to-end data analysis project and Streamlit dashboard that scrapes Instagram creator data using Apify, analyzes profile, post, and comment insights, and generates personalized D2C brand ideas for influencers using Gemini API and ML models.
+
+---
+
+## ✨ Project Highlights
+- 🔍 **Instagram Scraping**: Uses Apify to extract influencer profile, post, and comment data.
+- 📈 **Data Analysis**: Analyzes engagement rate, tone, content type, sentiment, and brand mentions.
+- 🧠 **ML Category Prediction**: Predicts D2C brand category using RandomForest on brand dataset.
+- 🤖 **Gemini-Powered Idea Generator**: Creates creative D2C brand names, products, and revenue potential.
+- 📊 **Streamlit Dashboard**: Beautiful UI with charts, profile display, and business idea report.
+
+---
+
+## 🚀 Demo Snapshot
+
+### 1. Profile Analysis
+![Profile Analysis](images/profile_analysis.png)
+
+### 2. Post Insights
+![Post Insights](images/post_insights.png)
+
+### 3. Comment Insights
+![Comment Insights](images/comment_insights.png)
+
+### 4. Business Idea Output
+![D2C Business Idea](images/business_idea.png)
+
+> 📎 [Check out the full demo and explanation on LinkedIn](https://linkedin.com/in/your-post-link)
+
+---
+
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- Apify
+- Google Gemini API
+- Scikit-learn, Pandas, Seaborn
+- Transformers (Zero-shot classification)
+
+---
+
+## 📂 File Structure
+```
+├── streamlit_app.py              # Final dashboard UI script
+├── instagram_analysis.py        # Data collection and ML analysis pipeline
+├── creator_brands.csv           # Training data for category prediction
+├── .env                         # Contains GEMINI_API_KEY
+├── requirements.txt             # All dependencies
+├── /images                      # Screenshots for README
+```
+
+---
+
+## 💻 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/yourusername/houseofx-instagram-analysis
+cd houseofx-instagram-analysis
+```
+
+### 2. Set up environment
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Add your credentials
+Create a `.env` file:
+```bash
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+### 4. Run Streamlit app
+```bash
+streamlit run streamlit_app.py
+```
+
+
+---
+
+## 🤝 Collaboration & Opportunities
+I'm actively looking for internship/full-time roles in data, product, or analytics. If you're a founder, hiring manager, or just someone who loves solving problems using data—let's connect!
+
+> 📩 Feel free to reach out on [LinkedIn](https://linkedin.com/in/your-profile) or raise issues/PRs on this repo!
+
+---
+
+## 📜 License
+This project is open-source and free to use for educational purposes.
+
+---
+
+## ✅ TODO
+- [ ] Add Gradio alternative UI
+- [ ] Deploy on Hugging Face Spaces
+- [ ] Add support for multiple creators
+- [ ] Improve visualizations with Plotly
