@@ -13,21 +13,9 @@ An end-to-end data analysis project and Streamlit dashboard that scrapes Instagr
 
 ---
 
-## 🚀 Demo Snapshot
+## 🚀 Demo  Video 
 
-### 1. Profile Analysis
-![Profile Analysis](images/profile_analysis.png)
-
-### 2. Post Insights
-![Post Insights](images/post_insights.png)
-
-### 3. Comment Insights
-![Comment Insights](images/comment_insights.png)
-
-### 4. Business Idea Output
-![D2C Business Idea](images/business_idea.png)
-
-> 📎 [Check out the full demo and explanation on LinkedIn](https://linkedin.com/in/your-post-link)
+> 📎 [Check out the full demo and explanation on LinkedIn](https://www.linkedin.com/posts/vansh-suneja-32b0042a9_houseofx-creatoreconomy-opentowork-activity-7343579337641639936-Y_qT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEo3rNMBHJiGSY1xSNOdeEbxgGX_uQoA6uA)
 
 ---
 
