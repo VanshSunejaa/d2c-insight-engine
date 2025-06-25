@@ -25,7 +25,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Gemini API configuration
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyADQnHd6_TvwVkTAYAadaflLTLePBevD68")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "PUT YOUR API KEY")
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
 # Zero-shot classifier for content type
@@ -339,6 +339,6 @@ def run_full_analysis_and_ideas(username, apify_token):
     print(f"\n📄 D2C ideas saved to {username}_d2c_ideas.csv")
 
 if __name__ == "__main__":
-    apify_token = "apify_api_EtCTiSakLFyWlWYSjna8IX4yO6dEz73Kcsph"
+    apify_token = "PUT YOUR APIFY API KEY"
     username = input("Enter Instagram username: ").strip()
     run_full_analysis_and_ideas(username, apify_token)
