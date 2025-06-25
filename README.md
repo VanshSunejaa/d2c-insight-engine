@@ -83,7 +83,7 @@ streamlit run streamlit_app.py
 ## 🤝 Collaboration & Opportunities
 I'm actively looking for internship/full-time roles in data, product, or analytics. If you're a founder, hiring manager, or just someone who loves solving problems using data—let's connect!
 
-> 📩 Feel free to reach out on [LinkedIn](https://linkedin.com/in/your-profile) or raise issues/PRs on this repo!
+> 📩 Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/vansh-suneja-32b0042a9/) or raise issues/PRs on this repo!
 
 ---
 
